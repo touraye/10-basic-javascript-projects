@@ -1,0 +1,25 @@
+.input {
+	display: block;
+	width: 90%;
+	margin: 0.354rem auto;
+	padding: 0.321rem 0;
+	font-size: 1.3rem;
+
+	//Tablet view
+	@media screen and (min-width: 768px) {
+		font-size: 1.6rem;
+		padding: 0.452rem 0;
+	}
+
+	//Laptop view
+	@media screen and (min-width: 1024px) {
+		font-size: 1.7rem;
+		padding: 0.482rem 0;
+	}
+
+	//Desktop view
+	@media screen and (min-width: 1336px) {
+		font-size: 1.9rem;
+		padding: 0.522rem 0;
+	}
+}
