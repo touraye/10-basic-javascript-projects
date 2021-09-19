@@ -1,1 +1,1 @@
-console.log("Welcome to number counter challenge!");
+console.log('Welcome to number counter challenge!');
